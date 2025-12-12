@@ -1,0 +1,32 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+body {
+  background: black;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 40px;
+}
+
+
+#root {
+  width: 100%;
+  max-width: 1100px;
+  padding: 20px;
+}
+
+h1, h2, h3 {
+  color: #333;
+}
+
+
+button, input, .part, li {
+  transition: 0.25s ease;
+}
